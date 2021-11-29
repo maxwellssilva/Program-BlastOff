@@ -8,3 +8,5 @@ inicio
    fixo <- 500
    escreval("O salário do vendendor este mês é: R$",fixo + (50 * salario))
 fimalgoritmo
+
+//https://github.com/maxwellssilva/Maxwell-BlastOff/tree/main/Logica/TAREFAS
