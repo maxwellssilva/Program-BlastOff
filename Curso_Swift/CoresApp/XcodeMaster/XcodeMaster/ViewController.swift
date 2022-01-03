@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     
     @IBAction func btnVermelho(_ sender: Any) {
         
-        viewQuadrada.backgroundColor = UIColor.red
+        viewQuadrada.backgroundColor = UIColor.green
         
     }
     
