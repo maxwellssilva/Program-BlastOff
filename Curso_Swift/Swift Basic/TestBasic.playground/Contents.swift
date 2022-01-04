@@ -9,7 +9,7 @@ varNumberNew = 7
 
 varNumber + varNumberNew
 
-var nome1 = "Oi"
+var nome1 = "ola"
 var nome2 = "mundo"
 
 nome1 + " " + nome2
