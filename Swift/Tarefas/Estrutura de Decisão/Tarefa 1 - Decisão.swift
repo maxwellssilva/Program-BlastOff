@@ -44,5 +44,6 @@ if conceito == "A" || conceito == "B" || conceito == "C" {
 } else {
     mensagem = "Reprovado(a)"
 }
-print("A média do aluno(a) foi \(media)")
+print("As notas foram \(nota1) e \(nota2).")
+print("A média do aluno(a) foi \(media) e obteve o conceito \(conceito).")
 print("Aluno(a) \(mensagem)!")
