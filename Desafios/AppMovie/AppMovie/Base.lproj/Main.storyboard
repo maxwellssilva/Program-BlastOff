@@ -93,22 +93,24 @@
                     <connections>
                         <outlet property="txtLogin" destination="DE0-yj-q80" id="lJV-0h-rtY"/>
                         <outlet property="txtPassword" destination="bdi-el-etK" id="rsN-Qt-J94"/>
+                        <segue destination="Ehq-I7-xhR" kind="show" identifier="tela2" id="59R-HA-64T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-660" y="85"/>
+            <point key="canvasLocation" x="-428" y="72"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fVy-aR-9Gc">
             <objects>
                 <viewController id="Ehq-I7-xhR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FmK-zb-eTq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="3Qg-Tj-mJ1"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="NFk-FG-mvD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fiu-te-mia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

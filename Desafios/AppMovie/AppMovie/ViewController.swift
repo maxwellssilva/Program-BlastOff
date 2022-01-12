@@ -21,9 +21,11 @@ class ViewController: UIViewController {
     @IBAction func openAction(_ sender: Any) {
         
         if(txtLogin.text == "Maxwell" && txtPassword.text == "1704"){
-            
+            performSegue(withIdentifier: "tela2", sender: self)
         }
-        
+    }
+    else{
+        let alert = UIAlertController(title: "Alert", message: <#T##String?#>, preferredStyle: <#T##UIAlertController.Style#>)
     }
     
 }
