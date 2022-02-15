@@ -9,7 +9,7 @@ import Foundation
 
 var cpf = String()
 
-extension Collection where Eleo CPFment == Int do {
+extension Collection where Element == Int {
     var digitoCPF : Int {
         var number = count + 2
         let digit = 11 - reduce(into: 0) {
@@ -29,12 +29,12 @@ extension StringProtocol {
     }
 }
 
-print("Informe um CPF valido no formato XXX.XXX.XXX-XX : ")
+print("Informe um CPF válido no formato XXX.XXX.XXX-XX : ")
 let cpfX = readLine()!
 cpf = cpfX
 
 if cpf.count != 14 {
-    print("CPF invalido")
+    print("CPF inválido")
 } else {
-    print("O CPF \(cpf) eh valido")
+    print("O CPF \(cpf) é válido")
 }
